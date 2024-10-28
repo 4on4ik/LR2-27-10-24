@@ -4,9 +4,9 @@ int main(void) {
     int n = 3;
     float E;
     float num_1;
-    float num_2;
     int i = 1;
     float sum_1;
+    //Вводим переменные отвечающие за последующие действия
 
     num_1 = (float)5 / (3 * (n+2) * (n+2) +1);
     // Вводим num_1 и num_2
@@ -35,6 +35,7 @@ int main(void) {
             z=1;
             
         }
+    //Проверяем условие задачи
     }
     printf("i, for which the sum of the infinitely convergent series will be less than the given E =%d\n", i);
     return 0;
