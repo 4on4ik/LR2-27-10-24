@@ -16,7 +16,7 @@ int main(void) {
     printf("%f\n", E);
     // Вводим погрешность
 
-    if(E >= num_1){
+    if(E >= 1){
         printf("!!!ERROR!!!\n");
         return 1;
     }
